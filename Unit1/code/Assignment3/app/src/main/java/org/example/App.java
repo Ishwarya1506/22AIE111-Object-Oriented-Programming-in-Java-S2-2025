@@ -13,7 +13,14 @@ public class App {
      */
     public String getDataTypesInfo() {
         // TODO
-        return "";
+        return ""byte"+Byte.SIZE+"bits,default=0\n"
+            +"short"+Byte.SIZE+"bits,default=0\n"
+            +int"+Byte.SIZE+"bits,default=0\n"
+            "long"+Byte.SIZE+"bits,default=0L\n"
+            "float"+Byte.SIZE+"bits,default=0.0f\n"
+            "double"+Byte.SIZE+"bits,default=0.0d\n"
+            "char"+Byte.SIZE+"bits,default='\\u0000'\n"
+            "boolean: 1 bit(stored as 1 byte in JVM for memory alignment), default=false"";
     }
 
     public static void main(String[] args) {
